@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(25, 26, 26);
+    color: rgb(104, 24, 183);
     padding: 10px;
     font-family: arial;
 }
@@ -11,15 +11,16 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(125, 55, 152);
    margin: 0 auto;
     display: flex;
     padding: 10px;
+    margin-bottom: 20px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(10, 10, 10);
     flex: 1;
     margin: 0;
 }
@@ -60,3 +61,28 @@ main {
 h2, h3 {
     margin: 0px;
 }
+         /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
