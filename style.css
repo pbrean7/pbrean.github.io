@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(125, 55, 152);
+    background: rgb(134, 31, 169);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -33,12 +33,12 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #171616;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(15, 13, 15);
     display: flex;
 }
 .sidebar {
@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(30, 12, 12) ridge;
     padding: 8px;
 }
 h2, h3 {
@@ -72,14 +72,14 @@ h2, h3 {
         }
 
         #portfolio li {
-            background: #fff;
+            background: #171717;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #190202;
         }
 
         #portfolio a {
