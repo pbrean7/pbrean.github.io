@@ -65,10 +65,6 @@ $(function () {
     createCollectable() 
     createCollectable() 
     createCollectable() 
-    createCollectable() 
-    createCollectable() 
-    createCollectable() 
-    createCollectable() 
 
 
     // TODO 3
