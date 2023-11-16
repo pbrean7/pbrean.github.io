@@ -9,7 +9,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: rgb(251, 252, 253);
+			background-color: rgb(11, 124, 237);
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -70,7 +70,7 @@
 			var points = 0;
 			var speed = 10;
 			var minimum = 0;
-
+            
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
@@ -106,9 +106,15 @@
 				points = points + 1;
 
 				changeBoxText(points);
-				speed = speed + 3;
+				
 
-
+              
+				if (speed > 0) {
+					speed = speed + 3;
+				}
+				 else if ( speed < 0) {
+					speed = speed - 3;
+				 }
 
 			};
 		})();
